@@ -8,10 +8,4 @@ return {
 	-- Disable indent-blankline.nvim
 	{ "lukas-reineke/indent-blankline.nvim", enabled = false },
 	-- Disable snacks.nvim indent if you have the snacks extra enabled
-	{
-		"mini-nvim/mini.indentscope",
-		opts = function(_, opts)
-			opts.indent = { enabled = false }
-		end,
-	},
 }
