@@ -12,3 +12,5 @@ opt.expandtab = true -- Use spaces instead of tabs
 
 opt.number = false
 opt.relativenumber = false
+
+-- Toggle between [ ] and [x] on the current line
