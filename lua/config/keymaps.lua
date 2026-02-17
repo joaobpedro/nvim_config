@@ -15,7 +15,7 @@ local function toggle_markdown_smart()
 	else
 		local indent = line:match("^%s*")
 		local content = line:gsub("^%s*", ""):gsub("^[*-] ", "", 1)
-		line = indent .. "- [ ] " .. content
+		line = indent .. "* [ ] " .. content
 	end
 
 	vim.api.nvim_set_current_line(line)
